@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XIAO_SeeedStudio")(type "KiCad")(uri "C:/Users/kyemo/Documents/Keyboard/LegionKeys/Parts/Seeeduino-XIAO-KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.kicad_sym")(options "")(descr ""))
+)

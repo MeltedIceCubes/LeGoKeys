@@ -1,0 +1,90 @@
+(footprint "ScrewHole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.35 4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70c5783d-2479-4f4d-b779-f1fd484dd7d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ScrewHole"
+		(at -0.35 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "262cae18-4419-4024-817b-5e1e05d5f858")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.35 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "928ec9e0-e7c4-4b53-969c-c442785f5396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.35 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "baf25127-6637-4707-9ae5-30efe1a11da7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.35 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1626c148-5e96-4240-b527-36fef466fa5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at -0.35 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7eb01d51-d087-417a-be11-b6674cbaa4ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 3.4 3.4)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42746101-6574-4387-a644-8c25d389d91d")
+	)
+)
